@@ -98,9 +98,10 @@ const ContactPage = () => {
             )}
 
             <div className="mt-8 space-y-2 text-sm text-[#1b5059]">
-              <p><strong>Address:</strong>Sarbonjida, around IK photos, Tamale.</p>
-              <p><strong>Email:</strong> sheadyenterprise@gmail.com</p>
-              <p><strong>Phone:</strong> +233 54 043 5713</p>
+              <p><strong>Address: </strong>Sakumono Chapel Square</p>
+              <p className="ml-16"> Spintex Road, Accra –  Ghana</p>
+              <p><strong>Email:</strong> yorkumigh@gmail.com</p>
+              <p><strong>Phone:</strong> +233 269 392 148</p>
             </div>
 
             <div className="mt-6">

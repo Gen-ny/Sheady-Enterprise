@@ -26,10 +26,10 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold mb-4"
           >
-            Be Confident In Your Skin
+            
           </motion.h2>
           <p className="text-lg max-w-2xl mx-auto text-gray-600">
-            At Sheady, we believe in restoring beauty naturally. Our organic products heal, protect, and nourish skin and hair without a single drop of chemicals.
+            “YORKUMI believe in the truth and transparency in the personal care industry - what you see is what you get, with no compromise on luxury.”
           </p>
           <div className="flex justify-center mt-8 gap-4">
             <Link

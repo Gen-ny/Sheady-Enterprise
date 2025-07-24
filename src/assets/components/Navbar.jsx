@@ -1,7 +1,7 @@
 import { useState, useContext, useEffect } from "react";
 import { FiSearch, FiShoppingCart, FiMenu, FiX } from "react-icons/fi";
 import "@fontsource/montserrat";
-import logo from "../images/sheady-logo.png";
+import logo from "../images/y-logo.jpg";
 import { Link, useNavigate, useLocation } from "react-router";
 import { CartContext } from "../Content/Cart";
 import CartModal from "../components/CartModal"; 

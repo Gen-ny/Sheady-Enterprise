@@ -14,7 +14,7 @@ import Contact from "./assets/pages/Contact";
 import Product from "./assets/pages/Product";
 import ErrorPage from "./assets/pages/ErrorPage";
 
-const sheadyRouter = createBrowserRouter([
+const yorkumisheaRouter = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/about", element: <About /> },
   { path: "/contact", element: <Contact /> },
@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <>
-      <RouterProvider router={sheadyRouter} />
+      <RouterProvider router={yorkumisheaRouter} />
       <ToastContainer />
     </>
   )

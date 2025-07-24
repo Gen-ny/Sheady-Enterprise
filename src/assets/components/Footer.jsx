@@ -8,7 +8,7 @@ import {
   FaWhatsapp,
   FaPhoneAlt,
 } from "react-icons/fa";
-import logo from "../images/f-logo.png";
+import logo from "../images/y-logo.jpg";
 import "@fontsource/montserrat";
 import { AiTwotoneMail } from "react-icons/ai";
 
@@ -23,12 +23,12 @@ const Footer = () => {
             alt="Sheady Logo"
             className="h-20 w-50 mb-3 rounded-md object-contain"
           />
-          <p className="text-sm text-white/80 mb-4 max-w-sm">
-            Discover the healing power of nature with Sheady’s pure skincare and haircare solutions.
+          <p className="text-sm text-white/80 mb-4 max-w-sm leading-6">
+            Sourcing our ingredients from women, we bring shea butter, black soap, neem & other natural raw ingredients to life so you can be nurtured. 
           </p>
-          <div className="text-sm space-y-1">
-            <p><FaPhoneAlt /> +233 54 043 5713</p>
-            <p><AiTwotoneMail /> sheadyenterprise@gmail.com</p>
+          <div className="text-sm space-y-1 mt-4 cursor-alias">
+            <p className="flex items-center gap-2"><FaPhoneAlt /> +233 269 392 148</p>
+            <p className="flex items-center gap-2"><AiTwotoneMail /> yorkumigh@gmail.com</p>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
           <h4 className="text-lg font-semibold mb-4">Categories</h4>
           <ul className="space-y-2 text-sm">
             <li><Link to="/product?category=Skin%20Care" className="hover:text-[#ec8733] transition">Skin Care</Link></li>
-            <li><Link to="/product?category=Hair%20Care" className="hover:text-[#ec8733] transition">Hair Care</Link></li>
+            <li><Link to="/product?category=Hair%20Care" className="hover:text-[#ec8733] transition">Lip Care</Link></li>
             <li><Link to="/product?category=Soap" className="hover:text-[#ec8733] transition">Soap</Link></li>
           </ul>
         </div>
@@ -73,7 +73,7 @@ const Footer = () => {
       </div>
 
       <div className="mt-16 border-t border-white/20 pt-6 text-center text-sm text-white/60">
-        &copy; {new Date().getFullYear()} Sheady Enterprise. All rights reserved.
+        &copy; {new Date().getFullYear()} Yorkumi Enterprise. All rights reserved.
       </div>
     </footer>
   );
